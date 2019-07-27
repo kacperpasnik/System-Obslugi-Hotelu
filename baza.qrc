@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/baza">
+        <file>baza/soh_baza.db</file>
+    </qresource>
+</RCC>
