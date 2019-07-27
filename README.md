@@ -1,6 +1,8 @@
 <h1 align="center"> System Obsługi Hotelu</h1> <br>
 <p align="center">
 System Obsługi Hotelu (SOH) jest to projekt zaliczeniowy jednego z kursów na studiach. Ów projekt napisany jest w C++ przy pomocy Qt. Baza danych stworzona jest za pomocą SQliteStudio (format pliku to .db).
+  <br>
+  <b>Przedstawienie programu – https://youtu.be/zgWtCumOy2A</b>
 </p>
 
 ## Logowanie
@@ -51,4 +53,11 @@ W tym oknie można zmienić rezerwację. W tym celu należy znać ID rezerwacji.
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/usun.png"/><br><br>   
 W tym oknie można usunąć rezerwację. W tym celu należy znać ID rezerwacji.
+</p>
+
+## Wygląd bazy danych
+<p align="center">
+  <img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/sqlite.PNG"/><br><img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/sqlite2.PNG"/><br><img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/sqlite3.PNG"/> <br> <img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/sqlite4.PNG"/>
+  <br>
+Oprócz zwykłej tabeli (Klient) z danymi i informacjami o rezerwacji jakiegoś klienta, baza danych posiada również osobną tabelę o nazwie Pokoje (3 zdjęcie). Zapisywane są w niej poszczególne dane do każdego zarezerwowanego dnia w konkretnym pokoju, gdzie ów dzień (dzien_rezerwacji) oznacza ilość dni, które minęły od 01.01.2000. Za pomocą takich oznaczeń z łatwością można sprawdzać czy jakiś dzień jest już zarezerwowany.
 </p>
