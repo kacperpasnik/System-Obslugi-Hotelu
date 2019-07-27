@@ -1,7 +1,8 @@
 <h1 align="center"> System Obsługi Hotelu </h1> <br>
 <p align="center">
 System Obsługi Hotelu (SOH) jest to projekt zaliczeniowy jednego z kursów na studiach. Ów projekt napisany jest w C++ przy pomocy Qt. Baza danych stworzona jest za pomocą SQliteStudio (format pliku to .db).
-
+</p>
+<p align="center">
 ## Zrzuty ekranu
 
 ### Logowanie
