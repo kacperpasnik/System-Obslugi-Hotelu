@@ -5,7 +5,7 @@
 #include "sprawdz.h"
 #include "usun.h"
 #include "zmien.h"
-#include "bazadanych.h"
+
 
 
 MenuGlowne::MenuGlowne(QWidget *parent) :
@@ -14,7 +14,7 @@ MenuGlowne::MenuGlowne(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    BazaDanych r;
+
     r.show();
     r.exec();
     src=r.sciezka;
@@ -53,6 +53,7 @@ MenuGlowne::MenuGlowne(QWidget *parent) :
 
 MenuGlowne::~MenuGlowne()
 {
+    r.BazaClose();
     delete ui;
 }
 

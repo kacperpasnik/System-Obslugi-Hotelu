@@ -9,6 +9,7 @@
 #include <QtSql>
 #include <QDebug>
 #include <QFileInfo>
+#include "bazadanych.h"
 
 
 namespace Ui {
@@ -38,6 +39,7 @@ private slots:
     void on_pushButton_usun_clicked();
 
 private:
+    BazaDanych r;
     Ui::MenuGlowne *ui;
     QString src;
 

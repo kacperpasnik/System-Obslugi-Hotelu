@@ -180,4 +180,5 @@ void Zmien::on_pushButton_zmien_clicked()
     }
     else
         QMessageBox::critical(this," ","Brak rezerwacji o podanym ID!");
+    conn.BazaClose();
 }

@@ -41,6 +41,7 @@ void Pokaz::on_pushButton_pokaz_clicked()
     ui->tableView->setModel(modal);
 
     qDebug()<<(modal->rowCount());
+    conn.BazaClose();
 }
 
 
@@ -48,6 +49,7 @@ void Pokaz::on_pushButton_pokaz_clicked()
 void Pokaz::on_pushButton_zmien_clicked()
 {
     Zmien r(this);
+    r.src=src;
     r.show();
     r.exec();
 }
@@ -78,8 +80,9 @@ void Pokaz::on_pushButton_usun_clicked()
             else
                 QMessageBox::information(this," ","Rezerwacja została usunięta pomyślnie.");
         }
-
+        conn.BazaClose();
     }
+
 }
 
 void Pokaz::on_tableView_clicked(const QModelIndex &index)

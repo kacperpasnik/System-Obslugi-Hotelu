@@ -79,6 +79,7 @@ void Sprawdz::on_pushButton_clicked()
     query->exec();
     modal->setQuery(*query);
     ui->tableView->setModel(modal);
+    conn.BazaClose();
 
 }
 
@@ -107,7 +108,7 @@ void Sprawdz::on_pushButton_usun_clicked()
             else
                 QMessageBox::information(this," ","Rezerwacja została usunięta pomyślnie.");
         }
-
+        conn.BazaClose();
     }
 }
 
@@ -119,6 +120,7 @@ void Sprawdz::on_tableView_clicked(const QModelIndex &index)
 void Sprawdz::on_pushButton_zmien_clicked()
 {
     Zmien r(this);
+    r.src=src;
     r.show();
     r.exec();
 }

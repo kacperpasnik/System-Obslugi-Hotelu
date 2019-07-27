@@ -44,7 +44,6 @@ void Usun::on_pushButton_clicked()
                 QMessageBox::information(this," ","Rezerwacja została usunięta pomyślnie.");
         }
     }
-
-
+    conn.BazaClose();
 
 }

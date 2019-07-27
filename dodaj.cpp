@@ -176,25 +176,30 @@ void Dodaj::on_pushButton_dodaj_clicked()
             {
                   QMessageBox::critical(this,"Rezerwacja","Wystąpił błąd w dodawaniu rezerwacji.");
                   rezerwacje.clear();
+                  conn.BazaClose();
             }
          }
          else
          {
              QMessageBox::warning(this,"Rezerwacja","Podana data jest już zarezerwowana!");
              rezerwacje.clear();
+             conn.BazaClose();
          }
       }
       else
       {
           QMessageBox::warning(this,"Rezerwacja","Podana data jest nieprawidłowa!");
           rezerwacje.clear();
+          conn.BazaClose();
       }
     }
     else
     {
         QMessageBox::warning(this,"Rezerwacja","Podane dane są puste!");
         rezerwacje.clear();
+        conn.BazaClose();
     }
+    conn.BazaClose();
 
 }
 
