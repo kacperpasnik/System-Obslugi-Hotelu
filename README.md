@@ -1,2 +1,4 @@
 # System-Obslugi-Hotelu
-Projekt zaliczeniowy kursu na studiach – System Obsługi Hotelu napisany w C++ przy pomocy Qt
+Projekt zaliczeniowy kursu na studiach – System Obsługi Hotelu napisany w C++ przy pomocy Qt.
+
+## Zrzuty ekranu
