@@ -61,3 +61,18 @@ W tym oknie można usunąć rezerwację. W tym celu należy znać ID rezerwacji.
   <br><br>
 Oprócz zwykłej tabeli (Klient) z danymi i informacjami o rezerwacji jakiegoś klienta, baza danych posiada również osobną tabelę o nazwie Pokoje (3 zdjęcie). Zapisywane są w niej poszczególne dane do każdego zarezerwowanego dnia w konkretnym pokoju, gdzie ów dzień (dzien_rezerwacji) oznacza ilość dni, które minęły od 01.01.2000. Za pomocą takich oznaczeń z łatwością można sprawdzać czy jakiś dzień jest już zarezerwowany.
 </p>
+
+## Zmiany
+
+### Wersja 1.0:
+
+### Wersja 2.0:
+
+– dodano klasę BazaDanych, która przetrzymuje ścieżkę do bazy danych potrzebną dla wszystkich innych klas;<br>
+– dodano możliwość podania ścieżki do bazy danych po zalogowniu;<br>
+– naprawiono niektóre bugi.
+
+### Wersja 2.1:
+
+– usprawniono zamykanie bazy danych (w niektórych przypadkach było to pomijane);<br>
+– usunięto bug zmiany rezerwacji w sekcji Pokaż i Sprawdź.
