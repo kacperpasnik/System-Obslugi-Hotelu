@@ -1,5 +1,4 @@
-<p align="center">
-# System-Obslugi-Hotelu
+<h1 align="center"> System Obsługi Hotelu </h1> <br>
 Projekt zaliczeniowy kursu na studiach – System Obsługi Hotelu napisany w C++ przy pomocy Qt.
 
 ## Zrzuty ekranu
