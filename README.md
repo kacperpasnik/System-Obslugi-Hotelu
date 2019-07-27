@@ -57,7 +57,7 @@ W tym oknie można usunąć rezerwację. W tym celu należy znać ID rezerwacji.
 
 ## Wygląd bazy danych
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/sqlite.PNG"/><br><img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/sqlite2.PNG"/><br><img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/sqlite3.PNG"/> <br> <img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/sqlite4.PNG"/>
-  <br>
+  <img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/sqlite.PNG"/><br><br><img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/sqlite2.PNG"/><br><br><img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/sqlite3.PNG"/> <br> <br><img align="center" src="https://raw.githubusercontent.com/kacperpasnik/System-Obslugi-Hotelu/master/screens/sqlite4.PNG"/>
+  <br><br>
 Oprócz zwykłej tabeli (Klient) z danymi i informacjami o rezerwacji jakiegoś klienta, baza danych posiada również osobną tabelę o nazwie Pokoje (3 zdjęcie). Zapisywane są w niej poszczególne dane do każdego zarezerwowanego dnia w konkretnym pokoju, gdzie ów dzień (dzien_rezerwacji) oznacza ilość dni, które minęły od 01.01.2000. Za pomocą takich oznaczeń z łatwością można sprawdzać czy jakiś dzień jest już zarezerwowany.
 </p>
